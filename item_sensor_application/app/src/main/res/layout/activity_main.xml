@@ -1,0 +1,53 @@
+<!-- activity_main.xml -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Sensor 1 -->
+    <TableRow>
+        <TextView
+            android:id="@+id/sensor1NameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sensor 1" />
+
+        <TextView
+            android:id="@+id/sensor1ValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+    </TableRow>
+
+    <!-- Sensor 2 -->
+    <TableRow>
+        <TextView
+            android:id="@+id/sensor2NameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sensor 2" />
+
+        <TextView
+            android:id="@+id/sensor2ValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+    </TableRow>
+
+    <!-- Sensor 3 -->
+    <TableRow>
+        <TextView
+            android:id="@+id/sensor3NameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sensor 3" />
+
+        <TextView
+            android:id="@+id/sensor3ValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+    </TableRow>
+    <!-- Add more rows for additional sensors -->
+
+</TableLayout>
